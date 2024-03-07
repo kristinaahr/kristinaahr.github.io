@@ -1,0 +1,25 @@
+body {
+    background-image: url('CliffsideMansion1.png'); /* Replace with the actual background image URL */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff; /* Text color */
+    padding: 20px;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value (last parameter) for transparency */
+    padding: 20px;
+    border-radius: 10px; /* Optional: add rounded corners to the text container */
+}
+
+.character-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Adjust as needed */
+    margin: 10px;
+}
+
+.story-text {
+    font-size: 18px;
+    line-height: 1.6;
+}
